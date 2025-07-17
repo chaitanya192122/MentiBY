@@ -1,0 +1,37 @@
+<script>
+let user=prompt('please enter no of glass of bannana juice');
+const juice={
+iteam:['bannana','milk','glas','sugar','water','mixee'],
+making:function(){
+return `making of ${this.iteam[0]} juice :<br><hr><i>1.Take `+ user*2+' '  +this.iteam[0]+'<br>'
+},
+taking:function(){
+return `2.take ${this.iteam[1]} `+user*50+'ml'+'<br>'
+},
+sugars:function(){
+return `3.take ${this.iteam[3]} `+user*10+'gs'+'<br>'
+},
+waters:function(){
+return `4.take ${this.iteam[4]} `+user*5+'ml'+'<br>'
+},
+mixees:function(){
+return `5.take ${this.iteam[5]}` +'<br>'
+},
+glass:function(){
+return `6.take ${this.iteam[2]} `+user+'<hr>'
+}
+}
+document.write(juice.making());
+
+document.write(juice.taking());
+
+document.write(juice.sugars());
+
+document.write(juice.waters());
+
+document.write(juice.mixees());
+
+document.write(juice.glass());
+
+
+</script>

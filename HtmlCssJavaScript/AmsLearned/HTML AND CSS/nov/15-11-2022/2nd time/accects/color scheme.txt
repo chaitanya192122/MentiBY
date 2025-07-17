@@ -1,0 +1,7 @@
+#6c9894 - Headings
+#f4f9f4 - Text white
+#e2ede8 - Nav background
+#f2f9f4 - Background
+#494f4e - Nav Text color
+#c7d9d5 - Nav text hover color
+#90d8c6 - Logo Background Color

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>bannu</title>
+
+<style>
+table {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid;
+    padding: 50px;
+}
+
+thead {
+    background: darkorange;
+}
+
+tbody {
+    background: #f6aaf3;
+}
+h1 {
+    text-transform: uppercase;
+}
+.a{
+    
+    padding: 63px 00px 0px 0px;
+}
+</style>
+</head>
+
+<body style='background-color:#92d8e6'>
+<center>
+<p>hear 'd' means my family and hear 'c' means my friends</p>
+<input type='text' placeholder='plz enter b are c' id='name'/></br></br>
+<button onclick='infurtion()' id='kanna'>ok</button>
+<p id='relult'></p>
+
+<div class='b'>
+<h1>this table for my family</h1>
+<table>
+<thead>
+<tr>
+<th>s.no</th>
+<th>names</th>
+<th>age</th>
+<th>gender</th>
+<th>abut your self</th>
+</tr>
+</thead>
+<tbody>
+<ol>
+<tr>
+<td><li></li></td>
+<td>ass chaitanya</td>
+<td>17</td>
+<td>male</td>
+<td></td>
+</tr>
+
+<tr>
+<td><li></li></td>
+<td>al dharani</td>
+<td>19</td>
+<td>female</td>
+<td></td>
+</tr>
+
+<tr>
+<td><li></li></td>
+<td>an lakshmi</td>
+<td>35</td>
+<td>female</td>
+<td></td>
+</tr>
+
+<tr>
+<td><li></li></td>
+<td>av subbarao</td>
+<td>42</td>
+<td>male</td>
+<td></td>
+</tr>
+</tbody>
+</ol>
+</table>
+</div>
+
+
+
+
+<div class='c'>
+<table>
+<h1 class='a'>this table for my friends</h1>
+<table>
+<thead>
+<tr>
+<th>s.no</th>
+<th>friends names</th>
+<th>friends age</th>
+<th>friends gender</th>
+<th>abut my friends</th>
+</tr>
+</thead>
+<tbody>
+<ol>
+<tr>
+<td><li></li></td>
+<td>harshi</td>
+<td>17</td>
+<td>male</td>
+<td></td>
+</tr>
+
+<tr>
+<td><li></li></td>
+<td>vamsi</td>
+<td>19</td>
+<td>male</td>
+<td></td>
+</tr>
+
+<tr>
+<td><li></li></td>
+<td>chandu</td>
+<td>35</td>
+<td>male</td>
+<td></td>
+</tr>
+
+<tr>
+<td><li></li></td>
+<td>roshini</td>
+<td>42</td>
+<td>male</td>
+<td></td>
+</tr>
+</tbody>
+</ol>
+</div>
+</table>
+</center>
+
+
+<script>
+function infurtion(){
+let num=document.getElementById('name').value
+
+let relult;
+if(num==b){
+relult=b;
+}
+else if(num==c){
+relult=c;
+}
+
+document.getElementById('relult').innerHTML=relult;
+}
+
+
+</script>
+
+</body>
+</html>

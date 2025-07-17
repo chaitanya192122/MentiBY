@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+header {
+    background: url(../accects/images/header_bg.png) no-repeat 0px -40px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.logo a img {
+    margin-top: 10px;
+    width: 60px;
+}
+.nav-section {
+    display: flex;
+}
+.logo {
+    padding: 5px 15px;
+}
+nav ul {
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-family: bannu;
+    list-style: none;
+}
+nav ul li a{
+ text-decoration: none;
+    color: #000;
+}
+.total-part input[type="text"] {
+    margin: 29px 11px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+
+                        /*2nd section*/
+section.\32 nd-section {
+    background: url(../accects/images/banner.png) no-repeat 0px 0px;
+    background-size: cover;
+}

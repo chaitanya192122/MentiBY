@@ -1,0 +1,5 @@
+x,y =input("please enter a and b valus").split(",")
+a =int(x)
+b =int(y)
+print("10>5:",a>b,",10<5:",a<b,",10==5:",a==b,",a!=5:",a!=b,sep="")
+# print("hello world")

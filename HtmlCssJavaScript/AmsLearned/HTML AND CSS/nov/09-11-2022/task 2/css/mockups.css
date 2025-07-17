@@ -1,0 +1,89 @@
+body {
+    background: blueviolet;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face{
+font-family:Poppins-SemiBold;
+src:url('../fonts/Poppins-SemiBold.ttf')
+
+}
+section.a {
+    font-family: Poppins-SemiBold;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+section.pp {
+    width: 50%;
+    background: #1c3943;
+    float: left;
+    padding-bottom: 70px;
+}
+section.c.m {
+    width: 50%;
+    background: #fff;
+    float: right;
+}
+section.o6 {
+    margin: 0px 65px;
+}
+
+h1.m0 {
+    font-family: Poppins-SemiBold;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 35px;
+}
+a.k1 {
+    text-decoration: none;
+color: #fff;
+}
+span {
+    display: block;
+}
+li.nan {
+    border-bottom: 1px solid #4a4a4a;
+    padding: 15px;
+}
+ul.nani {
+    list-style: none;
+    text-align: center;
+}
+section.ggg {
+    margin: 0px 71px;
+}
+a:hover{
+color:#fe9342;
+}
+
+                  /*se 2*/
+
+h1.o1 {
+    font-size: 30px;
+    color: #fe9342;
+    margin-top: 16px;
+}
+section.o6 {
+    margin: 0px 70px 0px 70px;
+}
+ul.o99 {
+    margin-top: -18px;
+    margin-left: -19px;
+}
+ul.o99 {
+    margin-top: -18px;
+    margin-left: -19px;
+}
+button.o7 {
+    padding: 10px 35px;
+    color: #fff;
+    border: none;
+    background: #ffa500;
+    margin-bottom: 32px;
+}
+p.o2 {
+    margin-top: -20px;
+}

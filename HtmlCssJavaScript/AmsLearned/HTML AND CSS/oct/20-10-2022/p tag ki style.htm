@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>bannu</title>
+<style>
+div {
+    background: #bcf63e;
+    padding: 67px 45px 45px 45px;
+    border-radius: 150px;
+    margin: 00px 00px;
+    width: 193px;
+}
+p:nth-child(2) {
+    color: red;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 39px 80px;
+    border-radius: 216px;
+    margin: 46px 136px;
+}
+.b {
+    color: red;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 39px 80px;
+    border-radius: 216px;
+    margin: 46px 136px;
+}
+
+
+
+</style>
+
+</head>
+<body style='background-color:#92d8e6'>
+<center>
+<div>
+<input type='text' placeholder='plz enter your number 1' id='number1' style="background-color: violet;"/>
+<br/>
+<br/>
+<input type='text' placeholder='plz enter your number 2' id='number2' style="background-color: #f3e239f7;"/>
+<br/>
+<br/>
+<br/>
+<button onclick='bannu(this.id)' id='add'>add</button>
+<button onclick='bannu(this.id)' id='sub'>sub</button>
+<button onclick='bannu(this.id)' id='mul'>mul</button>
+<button onclick='bannu(this.id)' id='div'>div</button>
+<p>result:<span id='relult'></span></p>
+</div>
+<h1>p tags</h1>
+</center>
+<P  class='a'>Matter is a substance made up of various types of particles that occupies physical space and has inertia. According to the principles of modern physics, the various types of particles each have a specific mass and size.
+
+The most familiar examples of material particles are the electron, the proton and the neutron. Combinations of these particles form atoms.</P>
+
+<P  class='a'>Matter is a substance made up of various types of particles that occupies physical space and has inertia. According to the principles of modern physics, the various types of particles each have a specific mass and size.
+
+The most familiar examples of material particles are the electron, the proton and the neutron. Combinations of these particles form atoms.</P>
+
+<P class='b'>Fundamentally, matter is composed of elementary particles called quarks and leptons, both of which are considered elementary particles in that they aren't made up of smaller units of matter. Quarks -- groups of subatomic particles that interact by means of a strong force -- combine into protons and neutrons. dkjgejgfuwvjgwvftuwejv uegcyuer hdiegd
+</P>
+<script>
+function bannu(id){
+
+let num1=Number(document.getElementById('number1').value);
+let num2=Number(document.getElementById('number2').value);
+let relult;
+
+switch(id){
+case 'add':
+relult=num1+num2;
+document.getElementById('number1').value=" ";
+document.getElementById('number2').value=" ";
+break;
+
+
+case 'sub':
+relult=num1-num2;
+document.getElementById('number1').value=" ";
+document.getElementById('number2').value=" ";
+break;
+
+
+case 'mul':
+relult=num1*num2;
+document.getElementById('number1').value=" ";
+document.getElementById('number2').value=" ";
+break;
+
+
+
+case 'div':
+relult=num1/num2;
+document.getElementById('number1').value=" ";
+document.getElementById('number2').value=" ";
+break;
+}
+document.getElementById('relult').innerHTML=relult;
+}
+
+</script>
+
+
+</body>
+</html>

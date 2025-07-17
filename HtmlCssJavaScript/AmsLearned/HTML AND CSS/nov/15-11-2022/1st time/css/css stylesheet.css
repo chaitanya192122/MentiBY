@@ -1,0 +1,101 @@
+@font-face{
+font-family:bannu;
+src:url('../fonts/BalooBhai-Regular.ttf');
+
+}
+@font-face{
+font-family:kanna;
+src:url('../fonts/Montserrat-Bold.otf');
+
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+section.total-part {
+    background: #f2f9f4;
+    padding: 0px 15px;
+}
+a img {
+    background: #90d8c6;
+    padding: 15px;
+}
+header{
+display: flex;
+
+    justify-content: space-between;    
+}
+.logo {
+    
+    padding: 15px;
+    
+}
+.girl-img img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    display: flex;
+    gap: 63px;
+    background: #e2ede8;
+    text-transform: uppercase;
+    font-family: bannu;
+    list-style: none;
+    color: #494f4e;
+    padding: 8px;
+    justify-content: end;
+    padding-right: 50px;
+}
+nav {
+    padding-top: 25px;
+}
+li {
+    letter-spacing: 2px;
+}
+a:hover{
+background: #c7d9d5;
+
+}
+.nav-section {
+    width: 100%;
+}
+.img-h1 {
+    justify-content: space-between;
+    display: flex;
+}
+.header-yoga h1 {
+    font-size: 85px;
+    font-family: 'bannu';
+    letter-spacing: 1px;
+    padding-top: 91px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.girl-img {
+    width: 50%;
+}
+.header-yoga {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+color:#6c9894;
+}
+.header-yoga button {
+    border-radius: 7px;
+    padding: 4px 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: none;
+    background: #6c9894;
+    color: #fff;
+margin-top: 20px;
+}
+.header-yoga p {
+    font-family: 'bannu';
+    margin: 0px 42px;
+}

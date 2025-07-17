@@ -1,0 +1,91 @@
+@media screen and (max-width:968px){
+header{
+flex-direction: column;
+}
+
+.girl-img {
+   
+ margin: auto;
+}
+ul {
+    justify-content: left;
+    gap: 51px;
+    
+}
+.girl-img {
+    width: 100%;
+ 
+}
+nav {
+    padding-top: 0px;
+}
+.header-yoga {
+    width: 100%;
+}
+ul {
+    
+    gap: 41px;
+    
+}
+.header-yoga h1 {
+    font-size: 72px;
+   
+}
+.img-h1{
+flex-direction: column;
+}
+}
+@media screen and (max-width:768px){
+.img-h1{
+flex-direction: column;
+}
+nav {
+    padding-top: 0px;
+}
+.girl-img {
+    width: 100%;
+ margin: auto;
+}
+.header-yoga {
+    width: 100%;
+}
+ul {
+    
+    gap: 41px;
+    
+}
+.header-yoga h1 {
+    font-size: 72px;
+    
+}
+
+
+}
+@media screen and (max-width:568px){
+ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+  
+}
+a {
+    padding-left: 30px;
+}
+li:hover{
+background: #c7d9d5;
+
+width: 100%;
+}
+button {
+    margin-bottom: 50px;
+}
+nav {
+    padding-top: 0px;
+}
+.header-yoga h1 {
+    font-size: 76px;
+    
+}
+
+
+}

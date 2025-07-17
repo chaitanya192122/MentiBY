@@ -1,0 +1,25 @@
+
+table {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid;
+    padding: 50px;
+}
+
+thead {
+    background: darkorange;
+}
+
+tbody {
+    background: #f6aaf3;
+}
+h1 {
+    text-transform: uppercase;
+}
+.a{
+    
+    padding: 63px 00px 0px 0px;
+}
+	

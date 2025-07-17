@@ -1,0 +1,79 @@
+@media screen and (max-width:968px){
+header{
+flex-direction: column;
+}
+
+.girl-img {
+   
+ margin: auto;
+}
+nav ul {
+    justify-content: left;
+    gap: 51px;
+    
+}
+.girl-img {
+    width: 100%;
+ 
+}
+nav {
+    padding-top: 0px;
+}
+.header-yoga {
+    width: 100%;
+}
+nav ul {
+    gap: 15px;
+}
+.header-yoga h1 {
+    font-size: 72px;
+   
+}
+.img-h1{
+flex-direction: column;
+}
+                        /*6nd se*/
+
+.\36 th-imgs {
+    
+
+    align-items: center;
+}
+
+.adv, .new, .exp {
+    margin: 30px 0px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:860px){
+
+                             /*7th se*/
+.round-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.round-2,.round-3 {
+    margin: 70px 0px;
+}
+.round-1{
+margin-top: 10px;
+}
+section.\33 rd-section {
+    background: url('../accects/imgs/3550620_23.png') 0px 0px no-repeat;
+    background-size: cover;
+}
+}

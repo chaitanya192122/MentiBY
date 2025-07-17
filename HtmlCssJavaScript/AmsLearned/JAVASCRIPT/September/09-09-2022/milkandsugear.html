@@ -1,0 +1,37 @@
+
+<script>
+var milkPrice,sugarPrice;
+function need(itemName,quantity){
+sugarPrice = quantity * 49;
+milkPrice = quantity * 50;
+
+
+if(itemName=='milk'){
+if(quantity==1){
+return 'milk is '+ quantity + ' liter' + '<br>' + 'Price: ' + milkPrice+'rs'+"<hr>";
+}
+else{
+return 'milk is '+ quantity +  ' liters' + '<br>'+ 'Price: ' + milkPrice+'rs'+"<hr>";
+
+}
+}
+if(itemName=='sugar'){
+if(quantity==1){
+return 'sugar is '+ quantity + ' kg' + '<br>'+ 'Price: ' + sugarPrice+'rs'+"<hr>";
+}
+else{
+return 'sugear is '+ quantity +' kgs' + '<br>' + 'Price: ' + sugarPrice+'rs'+"<hr>";
+
+}
+}
+}
+var item1=prompt('please enter item1');
+var quantity1=prompt('please enter quantity1');
+document.write(need(item1,quantity1));
+document.write('<br>');
+var item2=prompt('please enter item2');
+var quantity2=prompt('please enter quantity2');
+document.write(need(item2,quantity2));
+document.write('<br>');
+document.write(`TOTAL BILL :`+`${milkPrice+sugarPrice}`+`rs`);
+</script>

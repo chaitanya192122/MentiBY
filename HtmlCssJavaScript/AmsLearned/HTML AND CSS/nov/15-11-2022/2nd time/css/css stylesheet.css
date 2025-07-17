@@ -1,0 +1,469 @@
+@font-face{
+font-family:bannu;
+src:url('../fonts/BalooBhai-Regular.ttf');
+
+}
+@font-face{
+font-family:kanna;
+src:url('../fonts/Montserrat-Bold.otf');
+
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+section.total-part {
+    background: #f2f9f4;
+    padding: 0px 15px;
+}
+a img {
+    background: #90d8c6;
+    padding: 15px;
+}
+header{
+display: flex;
+
+    justify-content: space-between;    
+}
+
+.girl-img img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #494f4e;
+}
+ul {
+    display: flex;
+    gap: 63px;
+    background: #e2ede8;
+    text-transform: uppercase;
+    font-family: bannu;
+    list-style: none;
+    color: #494f4e;
+    padding: 8px;
+    justify-content: end;
+    padding-right: 50px;
+}
+nav {
+    padding-top: 25px;
+}
+li {
+    letter-spacing: 2px;
+}
+nav ul li a:hover{
+background: #c7d9d5;
+
+}
+.nav-section {
+    width: 100%;
+}
+.img-h1 {
+    justify-content: space-between;
+    display: flex;
+}
+.header-yoga h1 {
+    font-size: 85px;
+    font-family: 'bannu';
+    letter-spacing: 1px;
+    padding-top: 91px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.girl-img {
+    width: 50%;
+}
+.header-yoga {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+color:#6c9894;
+}
+.header-yoga button {
+    border-radius: 7px;
+    padding: 4px 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: none;
+    background: #6c9894;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.header-yoga p {
+    font-family: 'bannu';
+    margin: 0px 42px;
+}
+
+
+
+                              /*2nd se*/
+
+
+section.\32 nd-section {
+    background: #6c9894;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+.heading-2nd h1 {
+    font-family: 'bannu';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 46px;
+    margin-bottom: 0px;
+}
+.heading-2nd p {
+    font-family: kanna;
+}
+.images-3 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.images-3 h2 {
+    text-transform: uppercase;
+    font-family: 'bannu';
+    letter-spacing: 2px;
+    margin: 0px;
+    font-size: 35px;
+}
+.images-3 span {
+    font-family: 'kanna';
+    padding: 0px 18px;
+}
+.img-set{
+width:33.33%;
+}
+.img-bend{
+width:33.33%;
+}
+.img-lug{
+width:33.33%;
+}
+
+.img-set img{
+
+width:100%;
+}
+.img-bend img{
+width:100%;
+}
+.img-lug img{
+width:100%;
+}
+                              /*3nd se*/
+
+
+section.\33 rd-section {
+    text-align: center;
+    padding: 30px;
+    background: url('../accects/imgs/3550620_23.png') 0px 0px no-repeat;
+    background-size: cover;
+    color: #6c9894;
+}
+.heading-3rd h1 {
+    text-transform: uppercase;
+    font-family: 'bannu';
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.heading-3rd p {
+    font-family: 'kanna';
+    padding-bottom: 55px;
+}
+.round-div .round-1,.round-2,.round-3 {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #6c9894;
+    border-radius: 100%;
+    text-align: center;
+display: inherit;
+align-items: center;
+
+}
+.round-div {
+    display: flex;
+    justify-content: space-around;
+   
+    margin: 230px auto;
+}
+span.sapn-mater {
+    display: block;
+font-family:kanna;
+padding: 0px 25px;
+}
+span.sapn-hed {
+    font-family: 'bannu';
+    font-size: 60px;
+}
+.round-1 .sapn-hed {
+    font-family: emoji;
+    font-size: 60px;
+}
+
+                           /*4nd se*/
+
+section.\34 th-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #fff;
+}
+.heading-4th {
+    width: 50%;
+    background: #6c9894;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.img-4th {
+    width: 50%;
+}
+.img-4th img {
+    width: 100%;
+    height: 100%;
+}
+
+.mater-4th {
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    margin-top: 80px;
+
+
+}
+.mater-4th h1 {
+    font-family: 'bannu';
+    text-transform: uppercase;
+    font-size:60px;
+margin-bottom: 0px;
+}
+.mater-4th h1 span {
+    display: block;
+}
+.mater-4th p {
+    font-family: 'kanna';
+    opacity: 90%;
+}
+.mater-4th button {
+    color: #6c9894;
+    background: #fff;
+    border: none;
+    padding: 8px 40px;
+    text-transform: uppercase;
+    font-family: 'kanna';
+}
+
+
+
+                               /*5nd se*/
+
+
+section.\35 th-section {
+    margin-top: -5px;
+    background: #f2f9f4;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}
+.img-5th {
+    width: 50%;
+    padding: 68px;
+}
+.heading-5th {
+    width: 50%;
+padding: 68px;
+color: #6c9894;
+}
+.img-5th img {
+    width: 100%;
+}
+.heading-5th h1 {
+    font-family: 'bannu';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+.heading-5th h1 span {
+    display: block;
+    margin-top: -25px;
+}
+.heading-5th p {
+    font-family: 'kanna';
+}
+.heading-5th button {
+    background: #6c9894;
+    border: none;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'kanna';
+}
+
+
+                              /*6th se*/
+
+section.\36 th-section {
+    box-sizing: border-box;
+    width: 100%;
+padding: 30px;
+    text-align: center;
+    background: #6c9894;
+padding-top: 1px;
+}
+.\36 th-heading {
+    color: #fff;
+
+}
+.\36 th-heading h1 {
+    text-transform: capitalize;
+    font-family: 'bannu';
+    letter-spacing: 2px;
+    font-size: 50px;
+margin-bottom: 0px;
+}
+.\36 th-heading p {
+    font-family: 'kanna';
+    font-size: 18px;
+}
+.\36 th-imgs {
+    display: flex;
+    justify-content: space-around;
+    color: #6c9894;
+    margin-bottom: 30px;
+}
+.adv, .new, .exp {
+    width: 280px;
+    height: 350px;
+    background: #fff;
+    border-radius: 10px;
+}
+.\36 th-imgs h1 {
+    text-transform: uppercase;
+    font-family: 'bannu';
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+.\36 th-imgs h2 {
+    margin-top: 0px;
+    font-family: 'bannu';
+}
+.\36 th-imgs img {
+    width: 60px;
+}
+.\36 th-imgs button {
+    background: #6c9894;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'bannu';
+    padding: 5px 70px;
+}
+
+
+                                         /*7th se*/
+
+/*
+.7th-section {
+    text-align: center;
+    padding: 30px;
+    background: url('../accects/imgs/3550620_23.png') 0px 0px no-repeat;
+    background-size: cover;
+    color: #6c9894;
+}
+*/
+section.\37 th-section {
+    color: #6c9894;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.\37 th-img img {
+    width: 250px;
+}
+.\37 th-heading p {
+    font-size: 45px;
+}
+.\37 th-heading h1 {
+    font-family: 'bannu';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-top: -40px;
+}
+
+
+
+                          /*8th se*/
+
+section.\38 th-section {
+    background: #6c9894;
+    box-sizing: border-box;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.\38 th-heading {
+    padding: 40px 70px;
+    width: 500px;
+    margin: auto;
+}
+.\38 th-heading h1 {
+    text-transform: uppercase;
+    font-family: 'bannu';
+    letter-spacing: 3px;
+    font-size: 31px;
+    margin-bottom: 0px;
+}
+.\38 th-heading input {
+    border: none;
+    padding: 7px 40px;
+border-radius: 10px 0px 0px 10px;
+}
+.\38 th-heading button {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+.\38 th-heading span {
+    margin: -4px;
+}
+
+
+                      /*9th se*/
+
+.\39 th-section {
+    width: 100%;
+    padding: 45px;
+    box-sizing: border-box;
+}
+.\39 th-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #6c9894;
+}
+.\39 th-title {
+    width: 35%;
+}
+.\39 th-about,.\39 th-services,.\39 th-follow {
+    width: 20%;
+}
+.\39 th-follow span {
+    display: block;
+}
+.\39 th-heading h2 {
+    font-family: 'kanna';
+}
+.\39 th-follow span img {
+    padding: 7px 12px 0px 0px;
+}

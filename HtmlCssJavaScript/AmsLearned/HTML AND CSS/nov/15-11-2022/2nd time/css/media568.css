@@ -1,0 +1,139 @@
+
+@media screen and (max-width:568px){
+nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+  
+}
+nav ul li a {
+    padding-left: 30px;
+}
+li:hover{
+background: #c7d9d5;
+
+width: 100%;
+}
+button {
+    margin-bottom: 50px;
+}
+nav {
+    padding-top: 0px;
+}
+.header-yoga h1 {
+    font-size: 76px;
+    
+} 
+                           /*2nd se*/
+
+.images-3 {
+   
+    flex-direction: column;
+}
+.img-set{
+width:100%;
+
+}
+.img-bend{
+width:100%;
+
+}
+.img-lug{
+width:100%;
+}
+
+                             /*3nd se*/
+.round-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.round-1,.round-2,.round-3 {
+    margin: 10px 0px;
+}
+section.\33 rd-section {
+    background: url('../accects/imgs/3550620_23.png') 0px 0px no-repeat;
+    background-size: cover;
+}
+
+
+
+                          /*4nd se*/
+section.\34 th-section {
+   
+    flex-direction: column;
+}
+.heading-4th {
+    width: 100%;
+   
+}
+.img-4th {
+    width: 100%;
+}
+
+
+                       /*5nd se*/
+
+section.\35 th-section {
+    flex-direction: column;
+}
+.img-5th {
+    width: 100%;
+padding:0px;
+
+}
+.heading-5th {
+    width: 100%;
+padding:0px;
+}
+.img-5th img {
+    width: 100%;
+}
+
+                             /*6nd se*/
+
+.\36 th-imgs {
+    
+    flex-direction: column;
+    align-items: center;
+}
+.adv, .new, .exp {
+    margin: 30px 0px;
+}
+
+.\37 th-heading h1 {
+   
+    font-size: 30px;
+    
+}
+.adv, .new, .exp {
+    width: 100%;
+    height: 350px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.\38 th-heading {
+    padding: 40px 65px;
+    width: 350px;
+    margin: auto;
+}
+
+
+.\38 th-heading h1 {
+    
+    letter-spacing: 1px;
+}
+
+.\39 th-heading {
+    flex-direction: column;
+    align-items: center;
+}
+.\39 th-title {
+    width: 100%;
+}
+.\39 th-about,.\39 th-services,.\39 th-follow {
+    width: 50%;
+}
+
+}

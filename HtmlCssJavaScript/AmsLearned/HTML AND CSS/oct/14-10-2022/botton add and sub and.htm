@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>bannu</title>
+</head>
+<body style='background-color:#fff6c0'>
+<center>
+<input type='text' placeholder='plz enter your number 1' id='number1'/>
+<br/>
+<br/>
+<input type='text' placeholder='plz enter your number 2' id='number2'/>
+<br/>
+<br/>
+<br/>
+<button onclick='add()'>add</button>
+<button onclick='sub()'>sub</button>
+<button onclick='mul()'>mul</button>
+<button onclick='div()'>div</button>
+<p>result:-<span id='relult'></span></p>
+</center>
+<script>
+function add(){
+let num1=document.getElementById('number1').value;
+let num2=document.getElementById('number2').value;
+let total=Number(num1)+Number(num2);
+document.getElementById('relult').innerHTML=total;
+}
+function sub(){
+let num1=document.getElementById('number1').value;
+let num2=document.getElementById('number2').value;
+let total=Number(num1)-Number(num2);
+document.getElementById('relult').innerHTML=total;
+}
+function mul(){
+let num1=document.getElementById('number1').value;
+let num2=document.getElementById('number2').value;
+let total=Number(num1)*Number(num2);
+document.getElementById('relult').innerHTML=total;
+}
+function div(){
+let num1=document.getElementById('number1').value;
+let num2=document.getElementById('number2').value;
+let total=Number(num1)/Number(num2);
+document.getElementById('relult').innerHTML=total;
+}
+
+</script>
+
+
+</body>
+</html>
