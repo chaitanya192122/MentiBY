@@ -5,6 +5,10 @@
 # # print("hello world")
 
 
-UserName =input("please enter user name :")
-print("user name is :" + UserName)
+# UserName =input("please enter user name :")
+# print("user name is :" + UserName ,sep=" ")
 
+L=int(input("please enter length :"))
+B=int(input("please enter breadth :"))
+area=L*B
+print("the area of object:" , area ,sep=" ")
