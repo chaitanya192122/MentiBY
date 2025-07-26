@@ -7,7 +7,20 @@
     <style>
         *{
             text-transform: capitalize;
+            padding: 10px;
+            margin: 5px;
+
         }
+        form{
+            width: 35%;
+        }
+       
+        .tt{
+             padding: 0px !important;
+            margin: 0px !important;
+             
+        }
+      
     </style>
 </head>
 <body>
@@ -17,39 +30,39 @@
             <label for="StudentName">Student Name :</label>
             <input type="text" name="StudentName" id="StudentName">
             <br>
-            <label for="gmale">email</label>
+            <label for="gmale">email :</label>
             <input type="email" name="gmale" id="gmale">
             <br>
-            <label for="gender">gender</label>
+            <label for="gender">gender :</label>
             <input type="radio" name="gender" id="boy" value="boy">
             <label for="boy">boy</label>
              <input type="radio" name="gender" id="girl" value="girl">
             <label for="girl">girl</label>
             <br>
-            <label for="subjects">subjects</label>
-            <input type="checkbox" name="subjects" id="telugu">
-            <label for="telugu">telugu</label>
+            <label class="tt" for="subjects">subjects :</label>
+            <input class="tt" type="checkbox" name="subjects" id="telugu">
+            <label class="tt" for="telugu">telugu</label>
 
-             <input type="checkbox" name="subjects" id="english">
-            <label for="english">english</label>
+             <input class="tt" type="checkbox" name="subjects" id="english">
+            <label class="tt" for="english">english</label>
 
-             <input type="checkbox" name="subjects" id="maths">
-            <label for="maths">maths</label>
+             <input class="tt" type="checkbox" name="subjects" id="maths">
+            <label class="tt" for="maths">maths</label>
 
-             <input type="checkbox" name="subjects" id="physics">
-            <label for="physics">physics</label>
+             <input class="tt" type="checkbox" name="subjects" id="physics">
+            <label class="tt" for="physics">physics</label>
 
-             <input type="checkbox" name="subjects" id="chemistry">
-            <label for="chemistry">chemistry</label>
+             <input class="tt" type="checkbox" name="subjects" id="chemistry">
+            <label class="tt" for="chemistry">chemistry </label>
             <br>
-            <label for="city">city/ton</label>
+            <label  for="city">city/towin :</label>
             <select name="city" id="city">
                 <option value="lakkavaram">lakkavaram</option>
                 <option value="lakkavaram">mori</option>
                 <option value="lakkavaram">malikipuram</option>
             </select>
             <br>
-            <label style="display: block;" for="comment">comment</label>
+            <label style="display: block;" for="comment">comment :</label>
             <textarea name="comment" id="comment" cols="50" rows="4">enter your feedback</textarea>
             <br>
             <button type="reset">clear</button>
